@@ -1,0 +1,32 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore PHP error logs
+*.log
+
+# Ignore environment/config files (DB credentials, API keys, etc.)
+db.php
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore vendor directory if using Composer
+/vendor/
+
+# Ignore OS-generated files
+ehthumbs.db
+Icon?
+
+# Ignore XAMPP-specific junk
+xamppfiles/
+htdocs/tmp/
+htdocs/cache/
+
+# Ignore compiled cache files
+*.cache
+*.tmp
+*.swp
